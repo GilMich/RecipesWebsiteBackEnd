@@ -20,7 +20,7 @@
 - **bcrypt** - For secure password hashing.
 - **client-sessions** - Session management for user authentication.
 - **Spoonacular API** - External API for fetching recipes.
-- **PostgreSQL/MySQL** (Optional) - For database storage.
+- **MySQL** - For database storage.
 - **CORS** - Configured for cross-origin requests between frontend and backend.
 
 ## 🔧 Installation and Setup
@@ -29,14 +29,14 @@ To run the API locally, follow these steps:
 
 1. **Clone the repository:**
 
-    ```bash
+    ```windows
     git clone https://github.com/your-username/recipes-website-backend.git
     cd recipes-website-backend
     ```
 
 2. **Install dependencies:**
 
-    ```bash
+    ```windows
     npm install
     ```
 
