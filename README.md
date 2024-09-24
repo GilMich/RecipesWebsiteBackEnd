@@ -1,6 +1,5 @@
-## Backend Repository - README.md
+## Backend Repository 
 
-```markdown
 # Recipes Website API 🍴
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
