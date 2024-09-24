@@ -37,7 +37,7 @@ To run the API locally, follow these steps:
 2. **Install dependencies:**
 
     ```windows
-    npm install
+    npm install ...
     ```
 
 3. **Create a `.env` file** with your API keys and server settings:
@@ -50,8 +50,8 @@ To run the API locally, follow these steps:
 
 4. **Run the server:**
 
-    ```bash
-    npm start
+    ```windwos
+    node main
     ```
 
     The backend server will be running at `https://localhost:3000`.
@@ -82,17 +82,12 @@ Here’s a quick summary of the key API endpoints:
 ### `GET /favorites`
 - Retrieves the logged-in user's favorite recipes.
 
-## 🌐 Live API
+### `POST /my-recipes`
+- Create a new user-recipe which will be saved in my-recipes table in my-SQL.
 
-Check out the live API: [API Demo Link](https://your-api-link.com)
+### `GET /my-recipes`
+- Retrieves the user-made recipes 
 
-## 📈 Future Improvements
-
-- **JWT Authentication**: Migrate to JWT for better scalability.
-- **Database Integration**: Integrate with a relational database like PostgreSQL for persistent data storage.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please check the [issues page](#) for opportunities to contribute.
+### and many many more ! 
 
 ---
